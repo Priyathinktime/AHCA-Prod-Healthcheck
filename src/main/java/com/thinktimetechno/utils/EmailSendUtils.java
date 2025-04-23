@@ -103,8 +103,8 @@ public class EmailSendUtils {
 
 				statusMessage
 				+ "<p>You can find the detailed test results in the attached report.</p>"
-				+ "<p>You may refer to <a href='https://github.com/Hariharanselenium/LearntasticHealthCheckUp' style='color:#1E90FF;'>this</a> repository to see the source code.</p>"
+				+ "<p>You may refer to <a href='https://github.com/Priyathinktime/AHCA-Prod-Healthcheck' style='color:#1E90FF;'>this</a> repository to see the source code.</p>"
 				+ "<p>Best regards,<br/>" + companyName + ".<br/>"
-				+ "<a href='https://thinktime.in/' style='color:#1E90FF;'>https://thinktime.in/</a></p>" + "</body></html>";
+				+ "<a href='https://thinktime.in/' style='color:#1E90FF;'>WWW.thinktime.in/</a></p>" + "</body></html>";
 	}
 }
