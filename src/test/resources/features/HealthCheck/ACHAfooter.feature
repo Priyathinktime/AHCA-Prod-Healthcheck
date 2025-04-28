@@ -4,58 +4,55 @@
 
 Feature: Navigation to Pages from Footer Menu
 
-   #Company Section Links
-  #Scenario: User navigates to About Us page
-    #Given the user is on the home page
-    #When the user clicks on "About Us" in the footer
-    #Then the user should be navigated to the About Us page
-#
-  #Scenario: User navigates to Contact Us page
-    #Given the user is on the home page
-    #When the user clicks on "Contact Us" in the footer
-    #Then the user should be navigated to the Contact Us page
-#
-  #Scenario: User navigates to Careers page
-    #Given the user is on the home page
-    #When the user clicks on "Careers" in the footer
-    #Then the user should be navigated to the Careers page
-#
-  #Scenario: User navigates to Testimonials page
-    #Given the user is on the home page
-    #When the user clicks on "Testimonials" in the footer
-    #Then the user should be navigated to the Testimonials page
-#
-  #Scenario: User navigates to Privacy Policy page
-    #Given the user is on the home page
-    #When the user clicks on "Privacy Policy" in the footer
-    #Then the user should be navigated to the Privacy Policy page
-#
-  #Scenario: User navigates to Money Back Guarantee page
-    #Given the user is on the home page
-    #When the user clicks on "Money Back Guarantee" in the footer
-    #Then the user should be navigated to the Money Back Guarantee page
-#
-  #Scenario: User navigates to Terms of Service page
-    #Given the user is on the home page
-    #When the user clicks on "Terms of Service" in the footer
-    #Then the user should be navigated to the Terms of Service page
-#
-  #Scenario: User navigates to FAQ page
-    #Given the user is on the home page
-    #When the user clicks on "FAQ" in the footer
-    #Then the user should be navigated to the FAQ page
-#
-  #Scenario: User navigates to Blog page
-    #Given the user is on the home page
-    #When the user clicks on "Blog" in the footer
-    #Then the user should be navigated to the Blog page
-#
-  #Scenario: User navigates to Join Our Community page
-    #Given the user is on the home page
-    #When the user clicks on "Join Our Community" in the footer
-    #Then the user should be navigated to the Join Our Community page
-#
+  Scenario: User navigates to About Us page
+    Given the user is on the home page
+    When the user clicks on "About Us" in the footer
+    Then the user should be navigated to the About Us page
 
+  Scenario: User navigates to Contact Us page
+    Given the user is on the home page
+    When the user clicks on "Contact Us" in the footer
+    Then the user should be navigated to the Contact Us page
+
+  Scenario: User navigates to Careers page
+    Given the user is on the home page
+    When the user clicks on "Careers" in the footer
+    Then the user should be navigated to the Careers page
+
+  Scenario: User navigates to Testimonials page
+    Given the user is on the home page
+    When the user clicks on "Testimonials" in the footer
+    Then the user should be navigated to the Testimonials page
+
+  Scenario: User navigates to Privacy Policy page
+    Given the user is on the home page
+    When the user clicks on "Privacy Policy" in the footer
+    Then the user should be navigated to the Privacy Policy page
+
+  Scenario: User navigates to Money Back Guarantee page
+    Given the user is on the home page
+    When the user clicks on "Money Back Guarantee" in the footer
+    Then the user should be navigated to the Money Back Guarantee page
+
+  Scenario: User navigates to Terms of Service page
+    Given the user is on the home page
+    When the user clicks on "Terms of Service" in the footer
+    Then the user should be navigated to the Terms of Service page
+
+  Scenario: User navigates to FAQ page
+    Given the user is on the home page
+    When the user clicks on "FAQ" in the footer
+    Then the user should be navigated to the FAQ page
+
+  Scenario: User navigates to Blog page
+    Given the user is on the home page
+    When the user clicks on "Blog" in the footer
+    Then the user should be navigated to the Blog page
+
+  Scenario: User navigates to Join Our Community page
+    Given the user is on the home page
+    When the user clicks on "Join Our Community" in the footer
+    Then the user should be navigated to the Join Our Community page
 
 
   # Training Section Links
@@ -109,7 +106,7 @@ Feature: Navigation to Pages from Footer Menu
     When the user clicks on "Renewals" in the footer
     Then the user should be navigated to the Renewals page successfully
 
-   #Courses Section Links
+ 
  
   Scenario: User navigates to CPR/AED Course Overview page
     Given the user is on the home page
