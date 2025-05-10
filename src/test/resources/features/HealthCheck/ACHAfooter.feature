@@ -96,7 +96,7 @@ Feature: Navigation to Pages from Footer Menu
     When the user clicks on "Blended Learning" in the footer
     Then the user should be navigated to the Blended Learning page successfully
 
-  Scenario: User navigates to Verify Certificate page "https://app.cpraedcourse.com/verifycertificate?_gl=1*vi2833*_gcl_au*MzIyOTAzMjI3LjE3NDY4ODM0NjY.*_ga*MjEyNjE4Njg2Ni4xNzQ2ODgzNDY2*_ga_BQXRHZVPD0*czE3NDY4ODM0NjYkbzEkZzEkdDE3NDY4ODUyMDEkajE1JGwwJGgw"
+  Scenario: User navigates to Verify Certificate page "https://app.cpraedcourse.com/verifycertificate"
     Given the user is on the home page
     When the user clicks on "Verify Certificate" in the footer
     Then the user should be navigated to the Verify Certificate page successfully
